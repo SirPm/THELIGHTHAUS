@@ -91,19 +91,26 @@ body {
     color: #4F4F4F;
 }
 
+.account span:hover, .bookmark span:hover, .cart span:hover {
+    color: #F4811F;
+}
+
 .account {
     width: 93px;
     text-align: center;
+    cursor: pointer;
 }
 
 .bookmark {
     width: 32px;
     text-align: center;
+    cursor: pointer;
 }
 
 .cart {
     width: 48px;
     text-align: center;
+    cursor: pointer;
 }
 
 .desktop-nav {
@@ -703,6 +710,7 @@ footer {
 
 .playstores {
     display: flex;
+    margin-top: 10px;
 }
 
 .apple-playstore {

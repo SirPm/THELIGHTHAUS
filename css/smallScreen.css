@@ -85,6 +85,7 @@
 
     .nav-links li {
         opacity: 0;
+        text-align: center;
     }
 
     .burger {
