@@ -1,0 +1,302 @@
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+    
+@media screen and (max-width: 800px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+    }
+    
+    .nav-links li {
+        list-style: none;
+    }
+    
+    .nav-links a {
+        color: #fffbfbf3;
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .mobile-nav .nav-links li .first-four-nav-links {
+        color: #F4811F;
+    }
+
+    .mobile-nav .nav-links .mobile-account .my-account, .mobile-nav .nav-links .mobile-account .list {
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .mobile-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 8vh;
+        font-family: 'Poppins', sans-serif;
+        padding: 10px 0;
+    }
+
+    .header-contact-info {
+        display: none;
+    }
+
+    .desktop-nav, .mobile-header {
+        display: none;
+    }
+
+    .header-logo-search-account {
+        margin-left: 0;
+    }
+
+    .search-mobile-version {
+        margin: auto;
+    }
+    
+    .nav-links {
+        position: absolute;
+        width: 50%;
+        left: 0;
+        top: 8vh;
+        height: 92vh;
+        background: #333333;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in;
+        z-index: 400;
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .arrows {
+        margin-left: 70%;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .footer-version {
+        display: flex;
+        font-size: 12px;
+        flex-direction: column;
+        height: fit-content;
+        padding: 20px 0;
+    }
+
+    .footer-version .phone {
+        margin-left: 0;
+        width: 200px;
+    }
+
+    .address {
+        width: 320px;
+    }
+
+    .mail {
+        width: 230px;
+    }
+
+    .footer-content-1 {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    .logo-and-content, .quick-links, .connect, .logo-and-playstore {
+        width: 100%;
+    }
+
+    .social-media-icons {
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .first-section-heading-2 {
+        width: fit-content;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .header-img .explore {
+        width: 280px;
+        height: 250px;
+        left: 90px;
+        top: 250px
+    }
+
+    .explore-showroom {
+        font-size: 14px;
+    }
+
+    .header-img .explore p {
+        width: 189px;
+        font-weight: 400;
+    }
+
+    .header-img .explore button {
+        width: 209px;
+        height: 44px;
+    }
+
+    .header-img .explore button span {
+        margin-right: 20px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .header-img .explore button img {
+        width: 15px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .shop-by-space, .popular-categories, .popular-products {
+        font-size: 16px;
+    }
+
+    .view-all {
+        font-size: 10px;
+    }
+
+    .first-section-heading-2 {
+        font-size: 14px;
+    }
+
+    .first-section-images, .fourth-section {
+        flex-direction: column;    
+    }
+
+    .fourth-section-image {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .repeating-image-div-2 {
+        margin-top: 0;
+    }
+
+    .first-section-image-1, .first-section-image-2, .first-section-image-3, .third-section-image-1, .third-section-image-2, .third-section-image-3, .third-section-image-4 {
+        width: 100%;
+        height: 300px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .details {
+        text-align: center;
+    }
+
+    .ten-percent-off {
+        left: 14%;
+    }
+
+    .first-section-image-1 button, .first-section-image-2 button, .first-section-image-3 button {
+        top: 190px;
+    }
+
+    .second-section-images, .third-section-images  {
+        flex-direction: column;
+    }
+
+    .second-section-image-1, .second-section-image-2 {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .second-section-image-1 button, .second-section-image-2 button {
+        width: 160px;
+        height: 45px;
+        left: 29px;
+    }
+
+    .header-img .explore {
+        left: 30px;
+        width: 250px;
+    }
+
+    .second-section-button-text {
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+    .arrows {
+        margin-left: 50%;
+    }
+
+    .ten-percent-off {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo-and-download {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .download-text {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+}
+
+/** This class will move it from -100% to 0. The -100 was set in the .nav-links **/
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+/** This is the creation of the animation that will make the opacity visible i.e 1 and also translate it from the left(-50px) to the its original position again**/
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+/***These will makde the burger turn to an x by rotating it and translating it a bit ***/
+
+.toggleBurger .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggleBurger .line2 {
+    opacity: 0;
+}
+
+.toggleBurger .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
