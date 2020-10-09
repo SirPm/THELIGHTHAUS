@@ -140,6 +140,10 @@
         width: fit-content;
     }
 
+    .scroll {
+        left: 500px;
+    }
+
 }
 
 @media screen and (max-width: 650px) {
@@ -172,6 +176,10 @@
 
     .header-img .explore button img {
         width: 15px;
+    }
+
+    .scroll {
+        left: 300px;
     }
 }
 
@@ -266,6 +274,10 @@
     .download-text {
         margin-left: 0;
         margin-bottom: 20px;
+    }
+
+    .scroll {
+        left: 60px;
     }
 }
 
