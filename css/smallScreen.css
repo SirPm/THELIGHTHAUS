@@ -144,6 +144,10 @@
         left: 500px;
     }
 
+    .playstores {
+        margin-top: 50px;
+    }
+
 }
 
 @media screen and (max-width: 650px) {

@@ -122,7 +122,7 @@ body {
 .desktop-nav .nav-links {
     display: flex;
     justify-content: space-between;
-    margin-left: 140px;
+    margin-left: 40px;
 }
 
 .desktop-nav .nav-links li {
@@ -193,6 +193,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.header-img .explore button:hover {
+    opacity: 0.8;
+    border: none;
 }
 
 .header-img .explore button span {    
@@ -684,6 +691,7 @@ footer {
 .social-media-icons {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .logo-and-playstore {
@@ -697,7 +705,7 @@ footer {
     display: flex;
     font-weight: 600;
     height: 50px;
-    /* margin: 30px 0; */
+    width: 200px;
     margin-top: 50px;
 }
 
@@ -716,7 +724,6 @@ footer {
 
 .playstores {
     display: flex;
-    margin-top: 10px;
 }
 
 .apple-playstore {
