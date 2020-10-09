@@ -29,11 +29,13 @@ body {
 
 .phone {
     width: 170px;
-    margin-left: 128px;
+    margin-left: 50px;
+    margin-right: 20px;
 }
 
 .address {
-    width: 350px;
+    width: 370px;
+    margin-right: 5px;
 }
 
 .mail {
